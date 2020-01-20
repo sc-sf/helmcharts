@@ -3,7 +3,7 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-01-11T21:28:27.943692-08:00"
+    created: "2020-01-20T10:48:20.888016-08:00"
     description: A Helm chart for Kubernetes
     digest: daaeeaf981a9801a5a783db9c56b2baf76bc5666b2eaaffe3a05cad2d46ca1a3
     name: myapp
@@ -11,4 +11,19 @@ entries:
     urls:
     - https://sc-sf.github.io/helmcharts/myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-11T21:28:27.937299-08:00"
+  vault:
+  - apiVersion: v1
+    created: "2020-01-20T10:48:20.890072-08:00"
+    description: Install and configure Vault on Kubernetes.
+    digest: b08fea613d941d7541d097adc7eea163bb2727efee5cf1d1138d8f318ed27a21
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    urls:
+    - https://sc-sf.github.io/helmcharts/vault-0.3.3.tgz
+    version: 0.3.3
+generated: "2020-01-20T10:48:20.88723-08:00"
